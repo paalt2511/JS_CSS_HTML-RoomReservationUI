@@ -1,0 +1,134 @@
+body {
+    width: 100%;
+    max-width: 100%;
+    background: url(../images/background.png) no-repeat;
+    min-height: 120vh;
+    background-size: cover;
+    height: 100%;
+    overflow: auto;
+}
+header {
+    height: 60px;
+    background-color: #000000;
+    color: #ffffff;
+    position: relative;
+    font-weight: bold;
+    border-bottom: 1px solid #30373d;
+}
+/* Main banner image */
+.hotel-image {
+    background: url(../images/hotelexterior.jpg) 100% 100% no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 30vh;
+    min-height: 150px;
+    border: 2px solid #ffffff;
+    margin-bottom: 20px;
+}
+/* Generic Styles */
+.no-padding {
+    padding: 0;
+}
+.color.white {
+    color: #fff;
+}
+
+.color-address-text{
+	color: #a1bed9;
+}
+.underline {
+    text-decoration: underline;
+}
+/* Page header section */
+.heading {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 60px;
+    width: 100%;
+    margin: 0;
+}
+.side-icon {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 10px;
+    right: 20px;
+}
+.back-icon {
+    color: #ffffff;
+    position: relative;
+    top: -2px;
+    font-size: 1.5em;
+}
+.back-button {
+    background: #45484d;
+    background: -moz-linear-gradient(top, #45484d 0%, #000000 100%);
+    background: -webkit-linear-gradient(top, #45484d 0%, #000000 100%);
+    border: none;
+    color: #ffffff;
+    float: left;
+    position: absolute;
+    top: 10px;
+    padding: 10px;
+    left: 15px;
+}
+/* Accordion Styles */
+.panel-body:not(.panel-collapse) {
+    background-color: #edf6ff;
+    padding: 15px;
+}
+.panel-group {
+    border-radius: 5px;
+    overflow: hidden;
+}
+.panel-header {
+    line-height: 48px;
+    padding: 0 15px;
+    background: #deefff;
+    background: -webkit-linear-gradient(top, #deefff 0%, #98bede 100%);
+    background: -o-linear-gradient(top, #deefff 0%, #98bede 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#deefff), to(#98bede));
+    background: linear-gradient(to bottom, #deefff 0%, #98bede 100%);
+    border: none;
+}
+.panel-title {
+    display: flex;
+}
+.panel-title > span {
+    display: flex;
+    flex: 1;
+	font-weight:700;
+}
+.status-icon {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: -2px;
+}
+/* Hotel address section */
+.client-address {
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.hotel-details {
+    padding: 20px;
+    height: calc(100% - 60px);
+    overflow: auto;
+}
+.hotel-name {
+    font-size: 1.3em;
+    line-height: 1.8em;
+}
+/* Accordion status icon */
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
